@@ -11,7 +11,7 @@
     name:'CineComponent',
   }
 </script>
-<style>
+<style scoped>
 @import "../assets/css/estilos.css";
 
 </style>

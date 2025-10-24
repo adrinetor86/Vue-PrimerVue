@@ -6,6 +6,15 @@
         <router-link to="/">Home</router-link>
       </li>
       <li>
+        <router-link to="/ciclovida">Ciclo Vida</router-link>
+      </li>
+      <li>
+        <router-link to="/directivas">Directivas</router-link>
+      </li>
+      <li>
+        <router-link to="/parimpar">Par Impar</router-link>
+      </li>
+      <li>
         <router-link to="/musica">Musica</router-link>
       </li>
       <li>
@@ -23,10 +32,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import "../assets/css/estilos.css";
 
 ul#menu {
-  display: inline;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 </style>
