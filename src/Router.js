@@ -7,6 +7,9 @@ import CinemaComponent from "./components/CineComponent.vue";
 import DirectivasComponent from "@/components/DirectivasComponent.vue";
 import CicloVidaComponent from "@/components/CicloVidaComponent.vue";
 import ParImparComponent from "@/components/ParImparComponent.vue";
+import NotFoundComponent from "@/components/NotFoundComponent.vue";
+import PropiedadConmutadaComponent from "@/components/PropiedadConmutadaComponent.vue";
+import MetodosFilters from "@/components/MetodosFilters.vue";
 
 //UN ARRAY CON LAS RUTAS DE NAVEGACION
 
@@ -16,7 +19,10 @@ const myRoutes=[
     {path:"/cine",component:CinemaComponent},
     {path:"/ciclovida",component:CicloVidaComponent},
     {path:"/directivas",component:DirectivasComponent},
-    {path:"/parimpar",component: ParImparComponent}
+    {path:"/parimpar",component: ParImparComponent},
+    {path:"/propiedadconmutada",component:PropiedadConmutadaComponent},
+    {path:"/metodosfilters",component:MetodosFilters},
+    {path:"/:pathMatch(.*)*",component:NotFoundComponent}
 ]
 
 //CREAMOS UNA VARIABLE PARA EL router INDICANDO EL TIPO DE NAVEGACION Y
